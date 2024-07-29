@@ -1,0 +1,36 @@
+server:
+  port: 9000
+  servlet:
+    context-path: /
+    encoding:
+      charset: utf-8
+      enabled: true
+
+spring:
+  datasource:
+    hikari:
+      pool-name: db-pool
+      jdbc-url: jdbc:h2:mem:studywork;MODE=MySQL;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+      username: sa
+      data-source-properties:
+        rewriteBatchedStatements: true
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    open-in-view: false
+    properties:
+      hibernate:
+        default_batch_fetch_size: 100
+        show-sql: true
+        format_sql: true
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:sql/schema.sql
+      data-locations: classpath:sql/data.sql
+  h2:
+    console:
+      enabled: true
