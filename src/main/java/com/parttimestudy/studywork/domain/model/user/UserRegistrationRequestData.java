@@ -1,4 +1,4 @@
-package com.parttimestudy.studywork.domain.model;
+package com.parttimestudy.studywork.domain.model.user;
 
 import com.parttimestudy.studywork.infrastructure.db.entity.User;
 

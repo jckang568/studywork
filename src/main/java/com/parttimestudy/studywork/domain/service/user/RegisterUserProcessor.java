@@ -1,6 +1,6 @@
-package com.parttimestudy.studywork.domain.service;
+package com.parttimestudy.studywork.domain.service.user;
 
-import com.parttimestudy.studywork.domain.model.UserRegistrationRequestData;
+import com.parttimestudy.studywork.domain.model.user.UserRegistrationRequestData;
 import com.parttimestudy.studywork.infrastructure.db.entity.User;
 import com.parttimestudy.studywork.infrastructure.db.repository.UserRepository;
 import org.springframework.stereotype.Component;

@@ -1,6 +1,6 @@
-package com.parttimestudy.studywork.api.controller.v1.request;
+package com.parttimestudy.studywork.api.core.v1.request;
 
-import com.parttimestudy.studywork.domain.model.UserRegistrationRequestData;
+import com.parttimestudy.studywork.domain.model.user.UserRegistrationRequestData;
 
 public record UserRegistrationRequestDTO(
         String userName

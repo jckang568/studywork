@@ -1,6 +1,6 @@
-package com.parttimestudy.studywork.api.controller.v1;
+package com.parttimestudy.studywork.api.core.v1;
 
-import com.parttimestudy.studywork.api.controller.v1.request.UserRegistrationRequestDTO;
+import com.parttimestudy.studywork.api.core.v1.request.UserRegistrationRequestDTO;
 import com.parttimestudy.studywork.api.support.response.ApiResponse;
 import com.parttimestudy.studywork.application.facade.UserFacade;
 import org.springframework.http.HttpStatus;

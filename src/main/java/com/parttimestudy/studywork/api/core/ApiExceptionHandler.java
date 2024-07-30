@@ -1,4 +1,4 @@
-package com.parttimestudy.studywork.api.controller;
+package com.parttimestudy.studywork.api.core;
 
 import com.parttimestudy.studywork.api.support.error.ApiException;
 import com.parttimestudy.studywork.api.support.error.ErrorType;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 @RestControllerAdvice
-public class ApiControllerAdvice {
+public class ApiExceptionHandler {
 
     private final Logger log = LoggerFactory.getLogger(getClass());
 
