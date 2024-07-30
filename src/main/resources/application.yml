@@ -10,7 +10,7 @@ spring:
   datasource:
     hikari:
       pool-name: db-pool
-      jdbc-url: jdbc:h2:mem:studywork;MODE=MySQL;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+      jdbc-url: jdbc:h2:tcp://localhost/~/studywork;MODE=MySQL;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
       username: sa
       data-source-properties:
         rewriteBatchedStatements: true
